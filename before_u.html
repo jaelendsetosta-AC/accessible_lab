@@ -1,9 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-	<meta http-equiv='cache-control' content='no-cache'> 
-<meta http-equiv='expires' content='0'> 
-<meta http-equiv='pragma' content='no-cache'>
 	<meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 	<title>Before - Accessible University Demo Site - Inaccessible Version</title>
@@ -33,7 +30,7 @@
         </ul>
       </nav>
       <a href="/">
-        <img id="logo" src="images/8675309-l-o-g-o-before.png" alt="Accessible University Logo" class="d-block"/>
+        <img id="logo" src="images/8675309-l-o-g-o-before.png" class="d-block"/>
       </a>
     </div>
 
@@ -49,8 +46,8 @@
               <a class="nav-link" href="#">Home</a>
             </li>
             <li class="nav-item dropdown">
-             <a class="nav-link dropdown-toggle" href="#" role="button"
-                  data-toggle="dropdown" aria-expanded="false">
+              <a class="nav-link dropdown-toggle" href="#"
+                  data-toggle="dropdown">
                   About
               </a>
               <ul class="dropdown-menu">
@@ -108,24 +105,24 @@
                 <div>
                   <div class="slide">
                     <a href="somepage.html?ref=Slide%201">
-                      <img src="images/8675309-before_brass_band.jpg" alt ="Accessible University Brass Ensemble" />
+                      <img src="images/8675309-before_brass_band.jpg" />
                     </a>
                   </div>
                   <div class="slide">
                     <a href="somepage.html?ref=Slide%202">
-                      <img src="images/8675309-before_articulated_bus.jpg" alt="Accessible University Electric Bus"/>
+                      <img src="images/8675309-before_articulated_bus.jpg" />
                     </a>
                   </div>
                   <div class="slide">
                     <a href="somepage.html?ref=Slide%203">
-                      <img src="images/8675309-before_construction.jpg" alt="Smith Dormitory Under Construction" />
+                      <img src="images/8675309-before_construction.jpg" />
                     </a>
                   </div>
                 </div>
               </div>
 
               <div class="section">
-                <h2>Welcome!</h2>
+                <div class="heading">Welcome!</div>
                 <p>Accessible University (AU) is a <a href="https://www.merriam-webster.com/dictionary/fictional">fictional</a> <a href="https://en.wikipedia.org/wiki/University">university</a>, and this is its
                   fictional home page. This page is designed to demonstrate a variety of
                   common web design <a href="https://www.merriam-webster.com/dictionary/problems">problems</a> that result in visitors with disabilities
@@ -136,7 +133,7 @@
                 </p>
               </div>
 
-              <div lang="es"><h2>Bienvenido!</h2></div>
+              <div class="heading">Bienvenido!</div>
               <p>Accesible Universidad (UA) es una universidad ficticia, y esta es su
                 página de ficción. Esta página está diseñada para demostrar una variedad de
                 común de diseño web que se traducen en problemas de los visitantes con discapacidad
@@ -146,19 +143,19 @@
                 el diseño inaccesible de esta página envía el mensaje opuesto.
               </p>
 
-              <h2>Can You Spot The Barriers?</h2>
-              <p><img style="float:left;max-width:200px;margin-right:10px" src="images/8675309-block.jpg" alt="Road closed barriers"/> There are at least 18 accessibility issues on this page.
+              <div class="heading">Can you spot the barriers?</div>
+              <p><img style="float:left;max-width:200px;margin-right:10px" src="images/8675309-block.jpg"/> There are at least 18 accessibility issues on this page.
                 To see a list of all known issues, <a href="issues.html">click here</a>.
                 To see a more accessible version of this same page, <a href="after_u.html">click here</a>.
                 To view a popup list of accessibility issues:</p>
                 <a class="btn btn-primary" href="cheatsheet.html">click here</a>
 
-              <h2>AU Enrollment Trends</h2>
+              <div class="heading">AU Enrollment Trends</div>
               <table id="enrollment" class="table">
                 <tr>
                   <td style="width:6em">&nbsp;</td>
-                  <td colspan="5" style="text-align:center"><b><h3>Last year</h3></b></td>
-                  <td colspan="5" style="text-align:center"><b><h3>This year</h3></b></td>
+                  <td colspan="5" style="text-align:center"><b>Last year</b></td>
+                  <td colspan="5" style="text-align:center"><b>This year</b></td>
                 </tr>
                 <tr>
                   <td>&nbsp;</td>
@@ -227,7 +224,7 @@
             <section class="mb-3">
 
               <div class="events box">
-                <h2>Events</h2>
+                <div class="heading">Events</div>
 
                 <h6>December 1</h6>
                 <h5><a href="#">A great holiday event</a></h4>
@@ -242,8 +239,8 @@
 
               <div id="appForm" class="form-group box">
 
-                <h2>Start your application</h2>
-                   <p>Fields indicated with a <strong>*</strong> are required.</p>
+                <div class="heading">Start your application</div>
+                  <p class="required reqExample">(required fields are in blue)</p>
 
                 <form action="#" method="post">
 
@@ -251,20 +248,19 @@
                   <div id="error"></div>
 
                   <div class="required form-group">
-                    <label for="name">Name: *
-                    <input type="text" name="name" class="form-control" /></label>
-			    
+                    Name:
+                    <input type="text" name="name" class="form-control" />
                   </div>
                   <div class="required form-group">
-                    <label for="email">Email: *
-                    <input type="text" name="email" class="form-control" /></label>
+                    Email:
+                    <input type="text" name="email" class="form-control" />
                   </div>
                   <div class="form-group">
-                    <label for="country">Country:
-                    <input type="text" name="country" class="form-control" /></label>
+                    Country:
+                    <input type="text" name="country" class="form-control" />
                   </div>
                   <div class="form-group">
-                    <legend>Desired major(s):</legend>
+                    <div>Desired major(s):</div>
                     <div class="" id="majors">
                       <div class="major"><input type="checkbox"/> Computer Science </div>
                       <div class="major"><input type="checkbox"/> Engineering </div>
@@ -277,7 +273,7 @@
                     <p>Security Test</p>
                     <p>Please enter the two words you see below, separated by a space</p>
                     <input type="text" name="captcha">
-                    <img src="images/captcha.png" alt="captcha image">
+                    <img src="images/captcha.png">
                   </div>
 
                   <div class="mt-2">
