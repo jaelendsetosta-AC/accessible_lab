@@ -25,6 +25,11 @@
  *
  */
 
+a {
+  color: #0073e6;
+	text-decoration: underline;
+}
+
  #logo {
    width:100%;
    max-width:400px;
@@ -63,10 +68,7 @@ p {
  * Uses color alone to communicate "link"
  *
  */
-a {
-  color: #0073e6;
-	text-decoration: underline;
-}
+
 /*
  * Provide additional visual cues to mouse users only
  *
