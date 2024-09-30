@@ -68,6 +68,25 @@
   padding-right: 20px;
 }
 
+.nav-tabs .nav-item {
+  font-size: 12px;
+}
+.nav-tabs .nav-link {
+  border-color: #767676;
+  border-bottom: none;
+  background: linear-gradient(#fff, #cddd);
+}
+.nav-tabs .nav-link:focus {
+  position: relative;
+  z-index: 50;
+}
+
+.nav-tabs .nav-link.active {
+  border-color: #111;
+  color: lightgreen;
+  background: #333;
+}
+
 /*
  *
  * Slide Indicators (Lentils)
@@ -108,21 +127,3 @@ ul.lentils {
     width: 720px;
   }
 }
-/*
-}
-.nav-link {
-  border-color: #767676;
-  border-bottom: none;
-  background: linear-gradient(#fff, #cddd);
-}
-.nav-link:focus {
-  position: relative;
-  z-index: 50;
-}
-
-.nav-link.active {
-  border-color: #111;
-  color: #0073e6;
-  background: #333;
-}
-*/
