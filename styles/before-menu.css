@@ -34,3 +34,21 @@
 .navbar-toggler:hover + .navbar-collapse {
 	display:block;
 }
+.navbar-dark .navbar-nav .nav-item:hover {
+	color: #0073e6;
+	color: #000;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+	background-color: #0073e6;
+	color: #000;
+}
+.dropdown-menu {
+	margin-top:-1px;
+}
+.dropdown-item {
+	text-decoration: none;
+}
+.dropdown-item:hover {
+	background-color: #0073e6;
+	color: #000;
+}
